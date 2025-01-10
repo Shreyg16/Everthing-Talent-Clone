@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import Image from "next/image"
 import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
-import myLogo from '../public/image/nextbase-dark-logo.jpg'
+import myLogo from '../Public/image/nextbase-dark-logo.jpg'
 import { ModeToggle } from './ui/ModeToggle'
 import { Button } from './ui/button'
 import { RainbowButton } from './ui/rainbow-button'

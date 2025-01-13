@@ -125,7 +125,7 @@ const AIStaffingSolutions: React.FC = () => {
             <span className="pointer-events-none whitespace-pre-wrap text-black text-center text-sm font-semibold leading-none text-transparent dark:text-white">
               Contact with Team 
             </span>
-            <BorderBeam size={70} duration={5} delay={20} />
+            <BorderBeam size={70} duration={10} delay={20} />
           </div>
         </div>
       </div>

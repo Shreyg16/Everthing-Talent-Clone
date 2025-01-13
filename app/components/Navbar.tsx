@@ -23,7 +23,7 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   return (
-    <nav className='border-b-2 border-gray-500 bg-black text-white'>
+    <nav className=' border-b-2 border-gray-500 bg-black text-white sticky inset-x-0 w-full top-0 z-50 '>
       <div className='w-full mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='flex items-center justify-between h-16'>
           <div className='flex items-center'>

@@ -87,10 +87,8 @@ const CallToAction: React.FC = () => {
               <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" className="absolute h-full w-full">
                 <rect fill="none" width="100%" height="100%" rx="10%" ry="10%"></rect>
               </svg>
-              <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-yellow-500 to-blue-400 opacity-80">
-
-              <BorderBeam size={70} duration={5} delay={20} />
-              </div>
+              <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-yellow-500 to-blue-400 opacity-80"></div>
+              <BorderBeam size={350} duration={10} delay={20}  />
             </div>
             <div className="relative bg-slate-900/[0.8] border-[1px] backdrop-blur-xl text-white flex items-center justify-center w-full h-full text-sm antialiased rounded-[26px]">
               <div className="relative w-full max-w-[700px] h-[200px] md:h-[400px] rounded-2xl overflow-hidden">

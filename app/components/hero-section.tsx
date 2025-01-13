@@ -2,6 +2,7 @@ import Image from "next/image"
 import { FloatingCard } from "../components/ui/floating-card"
 import { GradientBox } from "../components/ui/gradient-box"
 import { StatsCard } from "../components/ui/stats-card"
+import { section } from "framer-motion/m"
 
 export function HeroSection() {
   return (
